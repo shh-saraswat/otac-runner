@@ -1,0 +1,4 @@
+VARIABLE_DECLARATION = \n>private %s %s;\n
+
+METHOD_GETTER = \n>public %s get%s(){\n>\t return %s;\n>}
+METHOD_SETTER = \n>public void set%s(final %s %s){\n>\t this.%s = %s;\n>}
